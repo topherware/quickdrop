@@ -1,0 +1,3 @@
+[functions.cleanup-transfers]
+# Shared secret is verified before any DB/Storage access inside the handler.
+verify_jwt = false

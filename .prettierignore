@@ -1,0 +1,7 @@
+node_modules
+.next
+.env*
+artifacts
+test-results
+playwright-report
+QuickDrop_PRD_MVP.md
