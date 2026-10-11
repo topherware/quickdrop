@@ -1037,6 +1037,7 @@ progress::-webkit-progress-value {
   display: flex;
   gap: 6px;
   align-items: center;
+  justify-content: center;
   font-size: 12px;
   font-weight: 700;
 }
@@ -1514,7 +1515,11 @@ progress::-webkit-progress-value {
     gap: 8px;
   }
   .download-button {
-    padding: 0 8px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    padding: 0;
+    gap: 0;
   }
   .download-button span {
     display: none;
